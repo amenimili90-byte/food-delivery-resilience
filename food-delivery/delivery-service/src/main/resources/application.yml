@@ -1,0 +1,27 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: delivery-service
+
+# Resilience4j Bulkhead Configuration
+resilience4j:
+  bulkhead:
+    instances:
+      deliveryPool:
+        max-concurrent-calls: 3
+        max-wait-duration: 100ms
+
+# Actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,bulkheads,metrics
+  endpoint:
+    health:
+      show-details: always
+  health:
+    bulkheads:
+      enabled: true

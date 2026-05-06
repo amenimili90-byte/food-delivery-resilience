@@ -1,0 +1,7 @@
+com\example\config\AppConfig.class
+com\example\model\Order.class
+com\example\service\OrderService.class
+com\example\controller\CircuitBreakerController.class
+com\example\model\Order$OrderStatus.class
+com\example\OrderServiceApplication.class
+com\example\model\OrderRepository.class

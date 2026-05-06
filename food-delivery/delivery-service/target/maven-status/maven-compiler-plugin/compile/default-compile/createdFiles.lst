@@ -1,0 +1,5 @@
+com\fooddelivery\service\TaskService.class
+com\fooddelivery\DeliveryServiceApplication.class
+com\fooddelivery\service\DeliveryService.class
+com\fooddelivery\controller\BulkheadController.class
+com\fooddelivery\model\Delivery.class
